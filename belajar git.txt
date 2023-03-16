@@ -96,3 +96,6 @@ git fetch
 untuk menarik branch dari clone yg tidak ada, contoh kasus org lain clone code namun tidak menemukan branch yg dia mau makan bisa ketikkan
 git fetch && git checkout namabranch
 memasukkan kode dari branch staging ke master
+
+fork repo
+untuk copy projek dr org lain lalu diclone ke local pc
