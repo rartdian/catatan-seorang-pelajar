@@ -1,0 +1,98 @@
+login dari cmd git ke  github
+git  config --global user.email "riovectored@gmail.com"
+
+
+
+git config --global user.name "rio"
+untuk pengecekan    
+git config --global user.name
+
+git init
+untuk menginisialisasi git ke projek
+
+git untuk kontrol kodingan yang  dibuat
+untu inisialisasi didalam folder ppprogram git init
+
+git  status
+
+git add .
+untuk menandai file baru
+
+git commit -m "menambahkan file belajar git"
+
+
+git log
+
+git log --oneline
+
+mengenal branch
+	artinya adalah sebuah cabang
+kodingan kita  yang  berbeda2  memiliki cabang2yg  berbeda
+contoh
+cabang  a  mengerjakkan fitur  ini
+cabang  b mengerjakkan fitur  ini
+cabang c mengerjakkan fitur ini
+s.d.cabang x
+jika  sudah selesai makan  digabungkan menjadi satu
+
+git  branch  
+auto default  di  branch master
+menambahkan branch
+git  branch staging
+untuk berpindah pindah bisa dengan menggunakan checkout
+contoh
+git checkout staging
+artinya meminta github untuk berpindah branch ke staging
+
+cara menghaus branch
+ketikkan
+git branch -d staging
+dengan catatan kita tidak sedang berada dibranch tsb
+
+jika kita menginginkan memuat branch dan masuk ke branch tsb makaketikkan
+
+git checkout -b staging
+ 
+
+cara berindah ke commit id kodingan
+git checkout idkomit -- nama file
+
+erubahan hany trjd di branch staging
+reset
+git reset idkommit //yg terubah adalah yg di kommit aja
+
+coba untuk hard reset
+untk menghaps di kommit dan dikodingan gunakan 
+git reset --hard idkommit
+
+git merge
+menggabungkan dua source yg berbeda
+dua branch yg berbeda
+contoh
+org A membuat branch login
+org B membuat branch payment
+
+
+ketikkan
+	git merge nama-branch
+
+coba menambhakan di  git dev-login
+
+conflict
+belajar mengatasi conflict 
+komunikasi dg programmer yg dipakai yg mn.
+
+gith clone dan push
+
+clone untuk mencopy dari github, ketikkkan
+git clone urlgit
+
+
+push untuk menaikkan code ke github
+git pull
+untuk mengambil code dari github
+
+git fetch
+untuk menarik branch dari clone yg tidak ada, contoh kasus org lain clone code namun tidak menemukan branch yg dia mau makan bisa ketikkan
+git fetch && git checkout namabranch
+memasukkan kode dari branch staging ke master
